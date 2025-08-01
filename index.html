@@ -17,6 +17,9 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
 
+    <!-- Link Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Link style.css -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -74,21 +77,27 @@
 
     <!-- About -->
     <section id="about">
+      <!-- <div class="container" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300"> -->
       <div class="container">
         <div class="row text-center">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1500">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center mt-3 fs-5 text-center">
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-right" data-aos-duration="1500">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
               accusantium expedita iure delectus, dolorem dicta minima qui,
               ratione id reiciendis sunt harum dignissimos!
             </p>
           </div>
-          <div class="col-md-5">
+          <div
+            class="col-md-5"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="1000"
+          >
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Dignissimos dolore magni illum similique alias facere veniam,
@@ -118,7 +127,11 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4">
-            <div class="card mb-3">
+            <div
+              class="card mb-3"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+            >
               <img
                 src="img/projects/img1.png"
                 class="card-img-top"
@@ -133,7 +146,12 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card mb-3">
+            <div
+              class="card mb-3"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
               <img
                 src="img/projects/img2.png"
                 class="card-img-top"
@@ -148,7 +166,12 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card mb-3">
+            <div
+              class="card mb-3"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
               <img
                 src="img/projects/img3.png"
                 class="card-img-top"
@@ -163,7 +186,12 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card mb-3">
+            <div
+              class="card mb-3"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               <img
                 src="img/projects/img4.png"
                 class="card-img-top"
@@ -178,7 +206,12 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card mb-3">
+            <div
+              class="card mb-3"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
               <img
                 src="img/projects/img5.png"
                 class="card-img-top"
@@ -194,6 +227,58 @@
           </div>
         </div>
       </div>
+
+      <section id="my-keyboard">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Keyboards</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Keychron K2</h4>
+                <img
+                  src="img/pngimg.com - keyboard_PNG101839.png"
+                  alt="Keyboard"
+                  class="keyboard-img"
+                />
+                <a href="" class="btn btn-light btn-keyboard-detail"
+                  >Show Details</a
+                >
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Womier RGB</h4>
+                <img
+                  src="img/pngimg.com - keyboard_PNG101839.png"
+                  alt="Keyboard"
+                  class="keyboard-img"
+                />
+                <a href="" class="btn btn-light btn-keyboard-detail"
+                  >Show Details</a
+                >
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Red Dragon</h4>
+                <img
+                  src="img/pngimg.com - keyboard_PNG101839.png"
+                  alt="Keyboard"
+                  class="keyboard-img"
+                />
+                <a href="" class="btn btn-light btn-keyboard-detail"
+                  >Show Details</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -203,6 +288,110 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/1.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/2.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/3.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/4.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/5.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/6.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/7.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/8.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/9.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img
+                  src="img/gallery/10.png"
+                  alt="Gambar 1"
+                  class="img-fluid gallery-img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
 
     <!-- Kontak -->
     <section id="contact">
@@ -303,6 +492,50 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+      AOS.init({
+        once: true,
+        duration: 500,
+      });
+    </script>
+
+    <!-- Script Gsap -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script> -->
+
+    <script>
+      // gsap.registerPlugin(SplitText);
+      // gsap.to('.lead', {duration: 2, delay: 1.5, text:'Mahasiwa | Full Stack Web Developer'})
+      gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", {
+        duration: 1.5,
+        y: "-100%",
+        opacity: 0,
+        ease: "bounce",
+      });
+      gsap.from(".display-4", {
+        duration: 1,
+        x: -50,
+        opacity: 0,
+        delay: 0.5,
+        ease: "back",
+      });
+      gsap.from(".lead", {
+        duration: 1,
+        x: -50,
+        opacity: 0,
+        delay: 1,
+        ease: "back",
+      });
+    </script>
     <!-- Script Form -->
 
     <script>
@@ -332,6 +565,17 @@
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <!-- tilt js -->
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+        max: 30,
+        speed: 800,
+        // scale: 1.1,
+        glare: true,
       });
     </script>
   </body>
