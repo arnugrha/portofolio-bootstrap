@@ -24,8 +24,8 @@ section {
 /* My keyboards setion */
 .keyboard-box {
     position: relative;
-/*     background-color: #0c6efd; */
-    background-color: black;
+    background-color: #0c6efd;
+    /* background-color: black; */
     border-radius: 10px;
     height: 500px;
     /* overflow: hidden; */
